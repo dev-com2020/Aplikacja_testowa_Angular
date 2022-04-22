@@ -12,6 +12,7 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
 import { SearchComponent } from './search/search.component';
 import { StarsComponent } from './stars/stars.component';
 import {RouterModule} from "@angular/router";
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import {RouterModule} from "@angular/router";
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule,
     RouterModule
   ],
   providers: [ProductService],
